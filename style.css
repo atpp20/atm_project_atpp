@@ -1,0 +1,732 @@
+
+.header-MRP{
+    color:#1E1E1E;
+    font-weight: 700;
+    font-size: 48px;
+     margin-top: 73px;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+  background-color: #fff;
+    margin: 0px;
+    justify-content: center;
+        display: flex;
+}
+
+.MRP-number{
+    background-color: #9B9B9B;
+
+}
+.header-object{
+    color:#3D3D3D;
+    font-weight: 500;
+    font-size: 24px;
+    margin-top: 5px;
+}
+.object-number{
+    background-color: #9B9B9B;
+}
+
+.centr{
+    display: flex;
+    margin-top: 20px;
+}
+.left-button{
+    width: 14%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 140px;
+}
+.left-top-button{
+    margin-bottom: 52px;
+
+}
+.left-middle-button{
+    margin-bottom: 46px;
+ 
+}
+.Geolocation{
+    color: #fff;
+    
+    width: 204px;
+    height: 195px;
+    background-color: #575757;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.centr-screen{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.centr-display-screen{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.right-button{
+    width: 14%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 140px;
+}
+
+.right-top-button{
+    margin-bottom: 52px;
+}
+
+.control-word{
+    color: #3D3D3D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 112px;
+    margin-bottom: 20px;
+}
+
+.buttery-word{
+    color: #3D3D3D;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.buttery-level{
+    margin-top: 5px;
+}
+
+.control-button{
+    display: flex
+}
+
+.control-manual-word{ 
+    color: #fff;
+    background-color: #828282;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 13px 23px;
+    box-shadow: 0px 0px 7px 0px #03A400;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center
+
+}
+.control-auto-word{ 
+    color: #000000;
+    background-color: #D9D9D9;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    padding: 13px 10px;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+    display: inline-block;
+    text-align: center
+}
+
+.charge-1{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background:  #03A400;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px #05FF0033;
+    margin-left: 5px;
+}
+
+.charge-2{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background:  #03A400;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px #05FF0033;
+    margin-left: 40px;
+}
+
+.charge-3{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background:  #03A400;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px #05FF0033;
+    margin-left: 75px;
+}
+
+.charge-4{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background:  #03A400;
+    border-radius: 50%;
+    box-shadow: 0px 0px 6px 3px #05FF0033;
+    margin-left: 110px;
+}
+
+.charge-5{
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    background:  #9D9D9D;
+    border-radius: 50%;
+    margin-left: 145px;
+}
+
+
+.switchMode{
+    position: fixed;
+    background-color: #fff;
+    border: none;
+}
+
+.switchMode1{
+    display: none;
+    position: fixed;
+    margin-left: 1692px;
+    margin-top: -90px;
+    max-width: 100%;
+    height: auto;
+}
+
+.switchMode2{
+    display: block;
+    position: fixed;
+    margin-left: 1692px;
+    margin-top: -90px;
+    max-width: 100%;
+    height: auto;
+}
+
+.l-t-button1{
+    display: none;
+}
+
+.l-t-button2{
+    display: block;
+}
+
+.l-m-button1{
+    display: none;
+}
+
+.l-m-button2{
+    display: block;
+}
+
+.r-t-button1{
+    display: none;
+}
+
+.r-t-button2{
+    display: block;
+}
+
+.r-l-button1{
+    display: none;
+}
+
+.r-l-button2{
+    display: block;
+}
+
+@media (max-width: 2000px){
+    .centr-screen{
+       
+        width: 80%;
+    height: auto;
+    }
+}
+
+
+@media (max-width: 1800px) {
+    .centr-screen{
+        margin: 0px 20px;
+        width: 66%;
+    height: auto;
+    }
+}
+
+
+@media (max-width: 1600px) {
+    .header-MRP{
+        margin-top: 63px;
+    }
+    .switchMode1{
+    display: none;
+    position: fixed;
+    margin-left: 1392px;
+    margin-top: -80px;
+        width: 3%;
+            height: auto;
+    }
+
+.switchMode2{
+    display: block;
+    position: fixed;
+    margin-left: 1392px;
+    margin-top: -80px;
+    width: 3%;
+            height: auto;
+    }
+    
+    .control{
+        margin-top: 20px;
+    }
+.centr-screen{
+        margin: 0px 10px;
+    }
+    .control-word{
+    margin-top: 20px;
+    }
+    .control-button{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center; 
+}
+    .l-t-button1{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .l-t-button2{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .l-m-button1{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .l-m-button2{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .Geolocation{
+        width: 154px;
+        height: 145px;
+        font-size: 16px;
+    }
+    
+    .r-t-button1{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .r-t-button2{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    .r-l-button1{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    
+    .r-l-button2{
+        width: 100px;
+        height: 100px;
+        justify-content: center
+    }
+    .right-button{
+    padding-top: 60px;
+}
+    .left-button{
+    padding-top: 60px;
+}
+}
+
+@media (max-width: 1300px) {
+     .header-MRP{
+        margin-top: 53px;
+    }
+        .switchMode1{
+    display: none;
+    position: fixed;
+    margin-left: 1132px;
+    margin-top: -60px;
+            width: 3%;
+            height: auto;
+    }
+
+.switchMode2{
+    display: block;
+    position: fixed;
+    margin-left: 1132px;
+    margin-top: -60px;
+    width: 3%;
+            height: auto;
+    }
+    .control{
+        margin-top: 10px;
+    }
+    .centr-screen{
+        margin: 0px 5px;
+    }
+    .control-word{
+        font-size: 14px;
+        margin-top: 15px;
+        margin-bottom: 10px;
+    }
+    .buttery-word{
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    .control-manual-word{
+        font-size: 12px;
+        padding: 8px 23px;
+    }
+    .control-auto-word{
+        font-size: 12px;
+        padding: 8px 12px;
+    }
+    .buttery-word{
+        font-size: 10px;
+        margin-top: 10px;
+    }
+    .charge-1{
+        width: 18px;
+        height: 18px;
+        margin-left: 4px
+    }
+    .charge-2{
+       width: 18px;
+        height: 18px;
+        margin-left: 26px;
+    }
+
+.charge-3{
+    width: 18px;
+        height: 18px;
+    margin-left: 48px;
+}
+
+.charge-4{
+   width: 18px;
+        height: 18px;
+    margin-left: 70px;
+}
+
+.charge-5{
+    width: 18px;
+        height: 18px;
+    margin-left: 92px;
+}
+    .l-t-button1{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .l-t-button2{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .l-m-button1{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .l-m-button2{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .Geolocation{
+        width: 124px;
+        height: 115px;
+        font-size: 12px;
+    }
+    
+    .r-t-button1{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .r-t-button2{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .r-l-button1{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+    
+    .r-l-button2{
+        width: 70px;
+        height: 70px;
+        justify-content: center
+    }
+        .right-button{
+    padding-top: 30px;
+}
+    .left-button{
+    padding-top: 30px;
+}
+}
+
+@media (max-width: 1000px) {
+    .header-MRP{
+        font-size: 32px;
+        margin-top: 43px;
+    }
+    .header-object{
+        font-size: 18px;
+    }
+        .switchMode1{
+    display: none;
+    position: fixed;
+    margin-left: 862px;
+    margin-top: -50px;
+    }
+
+.switchMode2{
+    display: block;
+    position: fixed;
+    margin-left: 862px;
+    margin-top: -50px;
+    }
+    
+    .control-word{
+        font-size: 12px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+    }
+    .control{
+        margin-top: 0px;
+    }
+    .buttery-word{
+        font-size: 8px;
+    }
+    .control-manual-word{
+        width: 80px;
+        padding: 8px 12px;
+    }
+    .control-auto-word{
+        width: 80px;
+    }
+    .buttery-word{
+        margin-top: 10px;
+        font-size: 10px;
+    }
+    .charge-1{
+   width: 15px;
+    height: 15px;
+        margin-left: 3px
+}
+
+.charge-2{
+    width: 15px;
+    height: 15px;
+    margin-left: 21px
+}
+
+.charge-3{
+    width: 15px;
+    height: 15px;
+    margin-left: 39px
+}
+
+.charge-4{
+    width: 15px;
+    height: 15px;
+    margin-left: 57px
+}
+
+.charge-5{
+    width: 15px;
+    height: 15px;
+    margin-left: 75px
+}
+    .left-top-button{
+    margin-bottom: 30px;
+}
+    .left-middle-button{
+    margin-bottom: 30px;
+}
+    .Geolocation{
+        font-size: 12px;
+        width: 94px;
+        height: 85px;
+    }
+    
+    .right-top-button{
+    margin-bottom: 30px;
+    }
+    .right-low-button{
+    margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 700px) {
+    .header-MRP{
+        font-size: 24px;
+        margin-top: 13px;
+    }
+    .header-object{
+        font-size: 14px;
+    }
+    .control-word{
+        font-size: 10px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .buttery-word{
+        font-size: 8px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        line-height: 10px;
+    }
+       .switchMode1{
+    display: none;
+    position: fixed;
+    margin-left: 622px;
+    margin-top: -50px;
+    }
+
+.switchMode2{
+    display: block;
+    position: fixed;
+    margin-left: 622px;
+    margin-top: -50px;
+    }
+    .control-manual-word{
+       font-size: 10px;
+    width: 70px;
+    height: 15px;
+    }
+    .control-auto-word{
+            font-size: 10px;
+    width: 70px;
+    height: 15px;
+    }
+    .left-top-button{
+    margin-bottom: 20px;
+    }
+    .l-t-button1{
+        width: 55px;
+        height: 55px;
+        justify-content: center
+    }
+    
+    .l-t-button2{
+        width: 55px;
+        height: 55px;
+        justify-content: center
+    }
+    .left-middle-button{
+    margin-bottom: 20px;
+    }
+    .l-m-button1{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    
+    .l-m-button2{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    .Geolocation{
+        font-size: 12px;
+        width: 94px;
+        height: 85px;
+    }
+    .r-t-button1{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    
+    .r-t-button2{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    .right-top-button{
+    margin-bottom: 20px;
+    }
+    .r-l-button1{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    
+    .r-l-button2{
+        width: 55px;
+        height: 55px;
+        justify-content: center;
+    }
+    .right-low-button{
+    margin-bottom: 10px;
+    }
+    .right-button {
+    padding-top: 20px;
+}
+    .left-button {
+        padding-top: 20px;}}
+    
+.coup-block{
+    display: none;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    
+}
+.coup{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-device-width: 600px) {
+    .coup-block{
+        display: block;
+        
+    }
+    .header{
+        display: none;
+        justify-content: center;
+    }
+    body{
+        background-color: #fff;
+    }
+}
